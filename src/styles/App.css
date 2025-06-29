@@ -1,0 +1,148 @@
+:root {
+  --bg-light: #ffffff;
+  --bg-dark: #121212;
+  --text-light: #000;
+  --text-dark: #fff;
+  --bot-bubble-light: #f1f1f1;
+  --bot-bubble-dark: #2a2a2a;
+  --user-bubble: #007bff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html, #root {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.app.light {
+  background: var(--bg-light);
+  color: var(--text-light);
+}
+
+.app.dark {
+  background: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+.chat-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background: #0ff;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1000;
+}
+
+.toggle-theme {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  background: #000;
+  color: #0ff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.chat-box {
+  margin-top: 60px;
+  margin-bottom: 70px;
+  padding: 20px;
+  overflow-y: auto;
+  height: calc(100vh - 130px);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.message {
+  max-width: 80%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+}
+
+.sent {
+  align-self: flex-end;
+  background: var(--user-bubble);
+  color: #fff;
+}
+
+.received {
+  align-self: flex-start;
+}
+
+.app.light .received {
+  background: var(--bot-bubble-light);
+  color: #000;
+}
+
+.app.dark .received {
+  background: var(--bot-bubble-dark);
+  color: #ccc;
+}
+
+.chat-input {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background: inherit;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  outline: none;
+}
+
+.chat-input button {
+  margin-left: 10px;
+  background: #0ff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.typing {
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.bubble {
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.avatar {
+  font-size: 20px;
+}
+
+.text {
+  font-weight: 400;
+}
+
+.time {
+  font-size: 12px;
+  opacity: 0.6;
+  text-align: right;
+  margin-top: 4px;
+}
