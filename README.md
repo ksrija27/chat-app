@@ -68,6 +68,9 @@ codtech-chatbot/
 
 ---
 
+## output
+![Image](https://github.com/user-attachments/assets/c5fbce3b-b14e-4e7f-b212-f66e8c8ec122)
+
 ## 🛠️ Getting Started (for Developers)
 
 ### 1. Clone the Repository
