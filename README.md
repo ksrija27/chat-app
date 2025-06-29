@@ -46,9 +46,10 @@ codtech-chatbot/
 ## 🧑‍💻 Tech Stack
 
 - **Frontend**: React.js (Vite)
-- **Styling**: Custom CSS (in `style/App.css`)
+- **Styling**: Custom CSS (`style/App.css`)
 - **State Management**: React `useState` and `useEffect`
-- **Deployment**: [Verc
+- **Deployment**: [Vercel](https://vercel.com)
+
 ---
 
 
