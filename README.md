@@ -1,3 +1,16 @@
+## 💬 CodTech Chat App
+
+*COMPANY* :CODTECH IT SOLUTIONS
+
+*NAME* : SRIJA KORABANDI
+
+*DOMAIN* :FRONT END DEVELOPMENT
+
+*INTERN ID*:CT04DF1297
+
+*DURATION* :4 WEEKS
+
+*MENTOR*: NEELA SANTOSH
 # 💬 CodTech Chat App
 
 A real-time chatbot-style application built with **React.js**, featuring multiple bots like Joke Bot, Motivation Bot, Info Bot, and CodTech Bot. The UI is clean, modern, and inspired by WhatsApp chat layout.
